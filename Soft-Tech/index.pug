@@ -1,0 +1,561 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='')  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8(lang='')  
+//if IE 8
+  html.no-js.lt-ie9(lang='')  
+// [if gt IE 8] <!
+html.no-js(lang='')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title Soft-Tect Free Landing Page
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    // Google fonts links
+    link(href='https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i', rel='stylesheet')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    // For Plugins external css
+    link(rel='stylesheet', href='css/plugins.css')
+    link(rel='stylesheet', href='css/roboto-webfont.css')
+    // Theme custom css
+    link(rel='stylesheet', href='css/style.css')
+    // Theme Responsive css
+    link(rel='stylesheet', href='css/responsive.css')
+    script(src='js/vendor/modernizr-2.8.3-respond-1.4.2.min.js')
+  body
+    //if lt IE 8
+      p.browserupgrade
+        | You are using an 
+        strong outdated
+        |  browser. Please 
+        a(href='http://browsehappy.com/') upgrade your browser
+        |  to improve your experience.
+    // Sections
+    section#social.social
+      .container
+        // Example row of columns
+        .row
+          .social-wrapper
+            .col-md-6
+              .social-icon
+                a(href='#')
+                  i.fa.fa-facebook
+                a(href='#')
+                  i.fa.fa-twitter
+                a(href='#')
+                  i.fa.fa-google-plus
+                a(href='#')
+                  i.fa.fa-linkedin
+            .col-md-6
+              .social-contact
+                a(href='#')
+                  i.fa.fa-phone
+                  | +011 54925849
+                a(href='#')
+                  i.fa.fa-envelope
+                  | contact@softech.com
+      // /container
+    nav.navbar.navbar-default
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#')
+            img(src='images/logo.png', alt='Logo')
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li.active
+              a(href='#home') Home
+            li
+              a(href='#features') PRODUCT
+            li
+              a(href='#service') Service
+            li
+              a(href='#price') PRICE
+            li
+              a(href='#business') Business
+            li
+              a(href='#contact') Contact
+            li.login
+              a(href='#') Sign In
+        // /.navbar-collapse
+      // /.container-fluid
+    // Home page style
+    header#home.home
+      .overlay-fluid-block
+        .container.text-center
+          .row
+            .home-wrapper
+              .col-md-10.col-md-offset-1
+                .home-content
+                  h1 Bring your Big Data to Life With Soft-Tech
+                  p
+                    | Blue Lance transforms your company's data into rich visuals for you to collect and organize so you can focus on what matters to you. Stay in the know, spot trends as they happen, and push your business further.
+                  .row
+                    .col-md-6.col-md-offset-3.col-sm-12.col-xs-12
+                      .home-contact
+                        .input-group
+                          input.form-control(type='text', placeholder='Enter your email address')
+                          input.form-control(type='submit', value='Use It Free')
+                        // /input-group
+    // Sections
+    section#features.features.sections
+      .container
+        .row
+          .main_features_content2
+            .col-sm-6
+              .single_features_left.text-center
+                img(src='images/feature-2.jpg', alt='')
+            .col-sm-6.margin-top-60
+              .single_features_right
+                h2 OUR PRODUCT
+                p
+                  | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                ul
+                  li Quisque volutpat mattis eros.
+                  li Nullam malesuada erat ut turpis.
+                  li Suspendisse urna nibh.
+                .features_buttom
+                  a.btn.btn-default(href='') Read More
+    // End of Features 2 Section
+    section#features.features.sections
+      .container
+        .row
+          .main_features_content2
+            .col-sm-6.margin-top-60
+              .single_features_right
+                h2 PRODUCT DESCRIPTIONS
+                p
+                  | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                ul
+                  li Quisque volutpat mattis eros.
+                  li Nullam malesuada erat ut turpis.
+                  li Suspendisse urna nibh.
+                .features_buttom
+                  a.btn.btn-default(href='') Read More
+            .col-sm-6
+              .single_features_left.text-center
+                img(src='images/feature-1.jpg', alt='')
+    // End of Features 2 Section
+    section#service.service2.sections.lightbg
+      .container
+        .row
+          .main_service2
+            .head_title.text-center
+              h2 SERVICES WE PROVIDE
+              p condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            .service_content
+              .col-md-6.col-sm-6
+                .single_service2
+                  .single_service_left
+                    img(src='images/flaticon1.png', alt='')
+                  .single_service_right
+                    h2 Branding
+                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+              .col-md-6.col-sm-6
+                .single_service2
+                  .single_service_left
+                    img(src='images/flaticon2.png', alt='')
+                  .single_service_right
+                    h2 Branding
+                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+              .col-md-6.col-sm-6
+                .single_service2
+                  .single_service_left
+                    img(src='images/flaticon3.png', alt='')
+                  .single_service_right
+                    h2 Branding
+                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+              .col-md-6.col-sm-6
+                .single_service2
+                  .single_service_left
+                    img(src='images/flaticon4.png', alt='')
+                  .single_service_right
+                    h2 Branding
+                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+    // End of Service2 Section
+    // Sections
+    section#price.price.sections
+      .head_title.text-center
+        h1 Affordable Services Package
+        p
+          | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+      // Example row of columns
+      .cd-pricing-container.cd-has-margins
+        .cd-pricing-switcher
+          p.fieldset
+            input#monthly-2(type='radio', name='duration-2', value='monthly', checked='')
+            label(for='monthly-2') Business
+            input#yearly-2(type='radio', name='duration-2', value='yearly')
+            label(for='yearly-2') Community
+            span.cd-switch
+        // .cd-pricing-switcher
+        ul.cd-pricing-list.cd-bounce-invert
+          li
+            ul.cd-pricing-wrapper
+              li.is-visible(data-type='monthly')
+                header.cd-pricing-header
+                  h2 Basic
+                  .cd-price
+                    span.cd-currency $
+                    span.cd-value 30
+                    span.cd-duration mo
+                // .cd-pricing-header
+                .cd-pricing-body
+                  ul.cd-pricing-features
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | 20 Keyword
+                    li
+                      em
+                        i.fa.fa-remove
+                      | No Time Tracking
+                    li
+                      em
+                        i.fa.fa-remove
+                      | 230 - Man Hour
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | News Letter Available
+                // .cd-pricing-body
+                footer.cd-pricing-footer
+                  a.cd-select(href='#') Purchase
+                // .cd-pricing-footer
+              li.is-hidden(data-type='yearly')
+                header.cd-pricing-header
+                  h2 Basic
+                  .cd-price
+                    span.cd-currency $
+                    span.cd-value 320
+                    span.cd-duration yr
+                // .cd-pricing-header
+                .cd-pricing-body
+                  ul.cd-pricing-features
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | 20 Keyword
+                    li
+                      em
+                        i.fa.fa-remove
+                      | No Time Tracking
+                    li
+                      em
+                        i.fa.fa-remove
+                      | 230 - Man Hour
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | News Letter Available
+                // .cd-pricing-body
+                footer.cd-pricing-footer
+                  a.cd-select(href='#') Purchase
+                // .cd-pricing-footer
+            // .cd-pricing-wrapper
+          li.cd-popular
+            ul.cd-pricing-wrapper
+              li.is-visible(data-type='monthly')
+                header.cd-pricing-header
+                  h2 Popular
+                  .cd-price
+                    span.cd-currency $
+                    span.cd-value 60
+                    span.cd-duration mo
+                // .cd-pricing-header
+                .cd-pricing-body
+                  ul.cd-pricing-features
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | 20 Keyword
+                    li
+                      em
+                        i.fa.fa-remove
+                      | No Time Tracking
+                    li
+                      em
+                        i.fa.fa-remove
+                      | 230 - Man Hour
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | News Letter Available
+                // .cd-pricing-body
+                footer.cd-pricing-footer
+                  a.cd-select(href='#') Purchase
+                // .cd-pricing-footer
+              li.is-hidden(data-type='yearly')
+                header.cd-pricing-header
+                  h2 Popular
+                  .cd-price
+                    span.cd-currency $
+                    span.cd-value 630
+                    span.cd-duration yr
+                // .cd-pricing-header
+                .cd-pricing-body
+                  ul.cd-pricing-features
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | 20 Keyword
+                    li
+                      em
+                        i.fa.fa-remove
+                      | No Time Tracking
+                    li
+                      em
+                        i.fa.fa-remove
+                      | 230 - Man Hour
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | News Letter Available
+                // .cd-pricing-body
+                footer.cd-pricing-footer
+                  a.cd-select(href='#') Purchase
+                // .cd-pricing-footer
+            // .cd-pricing-wrapper
+          li
+            ul.cd-pricing-wrapper
+              li.is-visible(data-type='monthly')
+                header.cd-pricing-header
+                  h2 Premier
+                  .cd-price
+                    span.cd-currency $
+                    span.cd-value 90
+                    span.cd-duration mo
+                // .cd-pricing-header
+                .cd-pricing-body
+                  ul.cd-pricing-features
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | 20 Keyword
+                    li
+                      em
+                        i.fa.fa-remove
+                      | No Time Tracking
+                    li
+                      em
+                        i.fa.fa-remove
+                      | 230 - Man Hour
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | News Letter Available
+                // .cd-pricing-body
+                footer.cd-pricing-footer
+                  a.cd-select(href='#') Purchase
+                // .cd-pricing-footer
+              li.is-hidden(data-type='yearly')
+                header.cd-pricing-header
+                  h2 Premier
+                  .cd-price
+                    span.cd-currency $
+                    span.cd-value 950
+                    span.cd-duration yr
+                // .cd-pricing-header
+                .cd-pricing-body
+                  ul.cd-pricing-features
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | 20 Keyword
+                    li
+                      em
+                        i.fa.fa-remove
+                      | No Time Tracking
+                    li
+                      em
+                        i.fa.fa-remove
+                      | 230 - Man Hour
+                    li
+                      em
+                        i.fa.fa-check-circle
+                      | News Letter Available
+                // .cd-pricing-body
+                footer.cd-pricing-footer
+                  a.cd-select(href='#') Purchase
+                // .cd-pricing-footer
+            // .cd-pricing-wrapper
+        // .cd-pricing-list
+      // .cd-pricing-container
+    // Sections
+    section#business.portfolio.sections
+      .container
+        .head_title.text-center
+          h1 Our Business Analytics Platform
+          p
+            | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        .row
+          .portfolio-wrapper.text-center
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-book
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-bug
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-gears
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-external-link
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+        // Example row of columns
+        .row
+          .portfolio-wrapper2.text-center
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-coffee
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-tree
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-paper-plane-o
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+            .col-md-3.col-sm-6.col-xs-12
+              .community-edition
+                i.fa.fa-folder-open
+                .separator
+                h4 Community Edition
+                p
+                  | Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.
+      // /container
+    section#contact.contact.sections
+      .container
+        .row
+          .main_contact.whitebackground
+            .head_title.text-center
+              h2 GET IN TOUCH
+              p
+                | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            .contact_content
+              .col-md-6
+                .single_left_contact
+                  form#formid(action='#')
+                    .form-group
+                      input.form-control(type='text', name='name', placeholder='first name', required='')
+                    .form-group
+                      input.form-control(type='email', name='email', placeholder='Email', required='')
+                    .form-group
+                      textarea.form-control(name='message', rows='8', placeholder='Message')
+                    .center-content
+                      input.btn.btn-default(type='submit', value='Submit')
+              .col-md-6
+                .single_right_contact
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+                  .contact_address.margin-top-40
+                    span 1600 Pennsylvania Ave NW, Washington,
+                    span DC 20500, United States of America.
+                    span.margin-top-20 T: (202) 456-1111
+                    span M: (202) 456-1212
+                  .contact_socail_bookmark
+                    a(href='')
+                      i.fa.fa-facebook
+                    a(href='')
+                      i.fa.fa-twitter
+                    a(href='')
+                      i.fa.fa-google
+    // End of Contact Section
+    section#footer-menu.sections.footer-menu
+      .container
+        .row
+          .footer-menu-wrapper
+            .col-md-8.col-sm-12.col-xs-12
+              .col-md-4.col-sm-6.col-xs-12
+                .menu-item
+                  h5 Quick Links
+                  ul
+                    li POWER BI DESKTOP
+                    li MOBILE
+                    li SEE ALL DOWNLOADS
+                    li POWER BI DESKTOP
+                    li MOBILE
+                    li SEE ALL DOWNLOADS
+              .col-md-4.col-sm-6.col-xs-12
+                .menu-item
+                  h5 Legal
+                  ul
+                    li PRIVACY & COOKIES
+                    li TERMS OF USE
+                    li TRADEMARKS
+              .col-md-4.col-sm-6.col-xs-12
+                .menu-item
+                  h5 Information
+                  ul
+                    li SUPPORT
+                    li DEVELOPERS
+                    li BLOG
+                    li NEWSLETTER
+                    li PYRAMID ANALYTICS
+            .col-md-4.col-sm-6.col-xs-12
+              .menu-item
+                h5 Newsletter
+                p Insights await in your company's data. Bring them into focus with BlueLance.
+                .input-group
+                  input.form-control(type='text', placeholder='Enter your email address')
+                  input.form-control(type='submit', value='Use It Free')
+    // Footer
+    footer#footer.footer
+      .container
+        .row
+          .footer-wrapper
+            .col-md-6.col-sm-6.col-xs-12
+              .footer-brand
+                img(src='images/logo.png', alt='logo')
+            .col-md-6.col-sm-6.col-xs-12
+              .copyright
+                p
+                  | Made with 
+                  i.fa.fa-heart
+                  |  by 
+                  a(target='_blank', href='https://bootstrapthemes.co')  Bootstrap Themes 
+                  | 2016. All rights reserved.
+    .scrollup
+      a(href='#')
+        i.fa.fa-chevron-up
+    script(src='js/vendor/jquery-1.11.2.min.js')
+    script(src='js/vendor/bootstrap.min.js')
+    script(src='js/plugins.js')
+    script(src='js/modernizr.js')
+    script(src='js/main.js')
