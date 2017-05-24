@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
     "gulp-scss": "^1.4.0",
@@ -17,6 +19,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.11",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.0",
+    "gulp-csso": "^3.0.0"
   }
 }
