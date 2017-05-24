@@ -479,13 +479,9 @@ textarea::-webkit-input-placeholder, textarea::-moz-input-placeholder, textarea:
 
 /*For Home Section*/
 .home {
-  background: url(../images/1.jpg) no-repeat center center;
+  background: url(../images/homebg.jpg) no-repeat center center;
   color: #000;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover; }
+  background-size: cover; }
 
 .home-wrapper {
   padding: 180px 0px;
